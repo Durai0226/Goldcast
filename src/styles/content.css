@@ -203,9 +203,7 @@ display: none;
 }
 
 @media screen and (max-width: 430px) {
-    .logo_img{
-        width: 120px;
-    }
+  
     .background-img {
       
       padding: 0 1rem;
@@ -213,28 +211,31 @@ display: none;
         .content_container {
             padding-top: 5.5rem;
         }
-        .studio_name {
-            font-size: 22px;
-          }
-          .studio_name_1 {
-            font-size: 22px;
+        .studio_details {
+          line-height: 24px;
+          font-size: 12px;
+          margin-top: -0.8rem;
+      }
+      .studio_container {
+          display: flex;
+          gap: 0.3rem;
+      
+      }
+      .studio_name {
+          font-size: 22px;
+        }
+        .studio_name_1 {
+          font-size: 22px;
+        }
+        .btn_container {
+          margin-top: 0.5rem;
+          padding-bottom: 3rem;}
+          .logo_img {
+              width: 100px;
           }
           .studio_content {
-            margin-top: 0rem;
-        }
-        .studio_details {
-           line-height: 24px;
-            font-size: 14px;
-            margin-top: -0.8rem;
-        }
-        .studio_content_details {
-            margin-top: 0.3rem;
-        }
-        .studio_container {
-            display: flex;
-            gap: 0.3rem;
-            margin-top: 0rem;
-        }
+              margin-top: 0.3rem;
+          }
  
 .mail_btn {
     font-size: 10.38px;
@@ -246,10 +247,7 @@ display: none;
 .enter_mail {
   
     height: 35px;}
-    .btn_container{
-        margin-top: 0.7rem;
-        padding-bottom: 4rem;
-    }
+   
     .join_btn {
         font-size: 10.38px !important;
         width: 85px !important;
@@ -260,34 +258,17 @@ display: none;
     .join {
       
         height: 35px !important; }
+        .studio_content_details {
+          margin-top: -0.5rem;
+      }
 }
-@media screen and (max-width: 380px) {
-    .studio_details {
-        line-height: 24px;
-        font-size: 12px;
-        margin-top: -0.8rem;
-    }
-    .studio_container {
-        display: flex;
-        gap: 0.3rem;
-        margin-top: -0.8rem;
-    }
-    .studio_name {
-        font-size: 22px;
-      }
-      .studio_name_1 {
-        font-size: 22px;
-      }
-      .btn_container {
-        margin-top: 0.5rem;
-        padding-bottom: 3rem;}
-        .logo_img {
-            width: 100px;
-        }
-        .studio_content {
-            margin-top: 0.3rem;
-        }
-    
+@media screen and (max-width: 390px) {
+   
+ 
+  .studio_container {
+   
+      margin-top: -0.5rem;
+  }
 }
 
 @keyframes moveUpDown {
