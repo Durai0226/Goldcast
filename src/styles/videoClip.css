@@ -157,16 +157,16 @@ display: flex;
        
         font-size: 22px;}
         .video_content_container {
-            padding: 0 2rem;
+            padding: 0 0rem;
             gap: 0.5rem;
             margin-top: 1rem;
         }
         .video-content {
-            font-size: 14px;
+            font-size: 12px;
         }
         
         .video_content_1 {
-            font-size: 14px;
+            font-size: 12px;
         }
         .video_heading_container {
             padding-top: 0rem;
