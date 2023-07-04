@@ -12,7 +12,7 @@ import StudioClip from "./Layout/videoClip";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <NavBar></NavBar>
       <JoinUs></JoinUs>
       <Event></Event>
@@ -23,7 +23,7 @@ function App() {
       <StudioPlayer></StudioPlayer>
       <StudioFuture></StudioFuture>
       <StudioJoin></StudioJoin>
-    </>
+    </div>
   );
 }
 

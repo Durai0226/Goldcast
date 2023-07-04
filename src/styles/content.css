@@ -10,7 +10,7 @@
   background-size: cover;
 }
 .content_container {
-  padding-top: 12rem;
+  padding-top: 15rem;
 }
 .logo img {
 }
@@ -131,12 +131,19 @@
 }
 .mail_btn:hover {
   background-color: #fff9f2;
+
+
 }
-@media screen and (max-width: 1030px) {
+
+
+@media screen and (max-width: 1150px) {
   .background-img {
     width: 100%;
     padding: 0 2rem;
     background-size: auto;
+  }
+  .content_container {
+    padding-top: 12rem;
   }
   .studio_name {
     font-size: 60px;
